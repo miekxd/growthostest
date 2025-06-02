@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { supabase } from '../lib/supabase'
 import { EmbeddingService } from '../lib/embeddingService'
-import ConflictAlert from './ConflictAlert'
+import ConflictAlert from './conflictAlert'
 
 export default function FileUpload({ onUploadSuccess, userId }) {
   const [uploading, setUploading] = useState(false)
